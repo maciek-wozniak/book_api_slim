@@ -1,0 +1,27 @@
+POST http://xxx.test/books
+Content-Type: application/json
+
+{
+  "title": "W pustyni i w puszczy",
+  "author": "H. Sienkiewicz",
+  "published": 1911,
+  "isbn": "1234567890123",
+  "price": 59.99,
+  "description": "Powieść przygodowa dla młodzieży Henryka Sienkiewicza publikowana w odcinkach w latach 1910–1911 w dzienniku „Kurier Warszawski”, wydana w 1911 w Warszawie w wydawnictwie „Gebethner i Wolff”; przełożona na 21 języków, stała się międzynarodowym bestsellerem.",
+  "status": "1",
+  "image_url": "/uploads/img/w_pustyni.jpg"
+}
+
+
+###
+GET http://xxx.test/books
+Content-Type: application/json
+
+
+###
+GET http://xxx.test/book/1
+Content-Type: application/json
+
+###
+GET http://xxx.test/book/123
+Content-Type: application/json
